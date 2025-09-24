@@ -4,6 +4,9 @@ import { defineConfig } from 'vitepress'
 export default defineConfig({
   title: "CSharp",
   description: "Learn CSharp",
+  lang: 'en-US',
+  base: '/js-way/',
+  ignoreDeadLinks: true,
   head: [
     // Google AdSense
     ['script', { 
