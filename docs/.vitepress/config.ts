@@ -7,14 +7,14 @@ export default defineConfig({
   lang: 'en-US',
   base: '/csharp/',
   ignoreDeadLinks: true,
-  head: [
-    // Google AdSense
-    ['script', { 
-      async: '', 
-      src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2312024156935185',
-      crossorigin: 'anonymous'
-    }]
-  ],
+  // head: [
+  //   // Google AdSense
+  //   ['script', { 
+  //     async: '', 
+  //     src: 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2312024156935185',
+  //     crossorigin: 'anonymous'
+  //   }]
+  // ],
   themeConfig: {
     // https://vitepress.dev/reference/default-theme-config
     nav: [

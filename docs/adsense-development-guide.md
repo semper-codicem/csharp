@@ -58,7 +58,7 @@ Replace the placeholder ad slot ID:
 
 ```vue
 <AdSense 
-  ad-client="ca-pub-2312024156935185"
+  ad-client="ca-pub-**********"
   ad-slot="YOUR_ACTUAL_AD_SLOT_ID"
   ad-format="auto"
 />
@@ -99,7 +99,7 @@ Your clean package.json scripts:
 ### No Ads Showing?
 
 1. **Check Console**: Look for AdSense errors
-2. **Verify Publisher ID**: Ensure `ca-pub-2312024156935185` is correct
+2. **Verify Publisher ID**: Ensure `ca-pub-**********` is correct
 3. **Check Ad Slot IDs**: Must match your AdSense dashboard
 4. **Site Status**: Your site needs AdSense approval
 5. **Content Policy**: Ensure content meets AdSense guidelines
@@ -133,7 +133,7 @@ npm run docs:build
 ### Banner Ad (Top of Page)
 ```vue
 <AdSense 
-  ad-client="ca-pub-2312024156935185"
+  ad-client="ca-pub-**********"
   ad-slot="1111111111"
   ad-format="horizontal"
 />
@@ -142,7 +142,7 @@ npm run docs:build
 ### Rectangle Ad (Within Content)
 ```vue
 <AdSense 
-  ad-client="ca-pub-2312024156935185"
+  ad-client="ca-pub-**********"
   ad-slot="2222222222"
   ad-format="rectangle"
 />
@@ -151,7 +151,7 @@ npm run docs:build
 ### Sidebar Ad
 ```vue
 <AdSense 
-  ad-client="ca-pub-2312024156935185"
+  ad-client="ca-pub-**********"
   ad-slot="3333333333"
   ad-format="vertical"
 />
