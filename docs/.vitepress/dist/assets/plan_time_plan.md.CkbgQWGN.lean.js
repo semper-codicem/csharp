@@ -1,0 +1,1 @@
+import{_ as e,c as t,o as a}from"./chunks/framework.BD_Yrv4e.js";const m=JSON.parse('{"title":"","description":"","frontmatter":{},"headers":[],"relativePath":"plan/time_plan.md","filePath":"plan/time_plan.md"}'),n={name:"plan/time_plan.md"};function p(r,o,s,c,_,i){return a(),t("div")}const d=e(n,[["render",p]]);export{m as __pageData,d as default};

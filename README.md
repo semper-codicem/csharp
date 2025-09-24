@@ -1,0 +1,1 @@
+Wellcome to the JavaScript Way documentation! This guide will help you navigate through the various topics and features of JavaScript, from beginner to advanced levels. Whether you're just starting out or looking to deepen your understanding, you'll find valuable resources and examples here.
