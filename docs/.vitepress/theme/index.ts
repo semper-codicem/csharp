@@ -14,6 +14,6 @@ export default {
   },
   enhanceApp({ app, router, siteData }) {
     // Register AdSense component globally
-    app.component('AdSense', AdSense)
+    /// app.component('AdSense', AdSense)
   }
 } satisfies Theme
