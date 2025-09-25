@@ -1,0 +1,14 @@
+{
+  "projects": {
+    "default": "semper-codicem"
+  },
+  "targets": {
+    "semper-codicem": {
+      "hosting": {
+        "csharp": [
+          "semper-codicem-csharp"
+        ]
+      }
+    }
+  }
+}

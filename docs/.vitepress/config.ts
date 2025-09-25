@@ -5,7 +5,7 @@ export default defineConfig({
   title: "CSharp",
   description: "Learn CSharp",
   lang: 'en-US',
-  base: '/csharp/',
+  base: '/',
   ignoreDeadLinks: true,
   // head: [
   //   // Google AdSense
@@ -39,8 +39,9 @@ export default defineConfig({
         items:[
           {text:"What To Learn", link:"/plan/what_to_learn"},
           {text:"Learning Plan", link:"/plan/learning_plan"},
-          {text:"Roadmap V1", link:"/plan/mastery_roadmap"},
-          {text:"Roadmap V2", link:"/plan/mastery_roadmap2"}
+          {text:"Roadmap", link:"/plan/mastery_roadmap2"},
+          {text:"Excercises", link:"/plan/exercises"},
+          {text:"Chart", link:"/plan/learning-roadmap-chart"}
         ]
       }
     ]
