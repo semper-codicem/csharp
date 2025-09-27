@@ -5,7 +5,7 @@ export default defineConfig({
   title: "CSharp",
   description: "Learn CSharp",
   lang: 'en-US',
-  base: '/',
+  base: '/csharp',
   ignoreDeadLinks: true,
   // head: [
   //   // Google AdSense
