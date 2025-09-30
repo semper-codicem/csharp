@@ -19,7 +19,8 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      { text: 'Plan', link: '/plan/index' }
+      { text: 'Plan', link: '/plan/index' },
+      { text:'Language Spec', link:'/language-spec'}
     ],
 
     sidebar:{
@@ -34,11 +35,19 @@ export default defineConfig({
           {text:"Chart", link:"/plan/learning-roadmap-chart"}
         ]
       }
+    ],
+    '/language-spec/':[
+      {
+        text:"Advanced",
+        items:[
+          {text:"Generics And Constraints", link:"/language-spec/generics_and_constraints"}
+        ]
+      }
     ]
-    },
+  },
 
-    socialLinks: [
-      { icon: 'github', link: 'https://github.com/semper-codicem/csharp' }
-    ]
+  socialLinks: [
+    { icon: 'github', link: 'https://github.com/semper-codicem/csharp' }
+  ]
   }
 })
