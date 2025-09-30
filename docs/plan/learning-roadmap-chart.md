@@ -11,54 +11,54 @@ flowchart TD
     BasicCs --> Phase1
     
     %% Phase 1: Language Mastery
-    Phase1[🧭 Phase 1: Language Mastery<br/>2-3 weeks] --> P1Topics
-    P1Topics[🔹 Advanced Language Features<br/>• Span&lt;T&gt;, Memory&lt;T&gt;<br/>• ref, in, ref struct<br/>• Nullable reference types<br/>• Source generators<br/>• Expression trees<br/>• Unsafe code & pointers]
-    P1Topics --> P1Project[📦 SafeBuffer Project<br/>Memory-efficient buffer wrapper]
+    Phase1["🧭 Phase 1: Language Mastery<br/>2-3 weeks"] --> P1Topics
+    P1Topics["🔹 Advanced Language Features<br/>• Span T, Memory T<br/>• ref, in, ref struct<br/>• Nullable reference types<br/>• Source generators<br/>• Expression trees<br/>• Unsafe code & pointers"]
+    P1Topics --> P1Project["📦 SafeBuffer Project<br/>Memory-efficient buffer wrapper"]
     P1Project --> Phase2
     
     %% Phase 2: CLR & Runtime
-    Phase2[🚀 Phase 2: CLR & Runtime<br/>2-3 weeks] --> P2Topics
-    P2Topics[🔹 Runtime Internals<br/>• JIT, IL, GC internals<br/>• Assembly loading & metadata<br/>• Reflection, custom attributes<br/>• Performance profiling]
-    P2Topics --> P2Project[📦 DynamicCommandExecutor<br/>Runtime assembly loading CLI]
+    Phase2["🚀 Phase 2: CLR & Runtime<br/>2-3 weeks"] --> P2Topics
+    P2Topics["🔹 Runtime Internals<br/>• JIT, IL, GC internals<br/>• Assembly loading & metadata<br/>• Reflection, custom attributes<br/>• Performance profiling"]
+    P2Topics --> P2Project["📦 DynamicCommandExecutor<br/>Runtime assembly loading CLI"]
     P2Project --> Phase3
     
     %% Phase 3: ASP.NET Core
-    Phase3[🧱 Phase 3: Advanced ASP.NET<br/>3-4 weeks] --> P3Topics
-    P3Topics[🔹 Web Development<br/>• Middleware, filters, DI<br/>• Minimal APIs vs MVC<br/>• SignalR & gRPC<br/>• Advanced model binding]
-    P3Topics --> P3Project[📦 MicroAPI Hub<br/>Modular web API with plugins]
+    Phase3["🧱 Phase 3: Advanced ASP.NET<br/>3-4 weeks"] --> P3Topics
+    P3Topics["🔹 Web Development<br/>• Middleware, filters, DI<br/>• Minimal APIs vs MVC<br/>• SignalR & gRPC<br/>• Advanced model binding"]
+    P3Topics --> P3Project["📦 MicroAPI Hub<br/>Modular web API with plugins"]
     P3Project --> Phase4
     
     %% Phase 4: Architecture
-    Phase4[🧠 Phase 4: Design & Architecture<br/>3-4 weeks] --> P4Topics
-    P4Topics[🔹 Enterprise Patterns<br/>• DDD, Onion Architecture<br/>• MediatR patterns, CQRS<br/>• Repository/Unit of Work<br/>• Clean Architecture]
-    P4Topics --> P4Project[📦 DomainShop<br/>E-commerce with DDD & CQRS]
+    Phase4["🧠 Phase 4: Design & Architecture<br/>3-4 weeks"] --> P4Topics
+    P4Topics["🔹 Enterprise Patterns<br/>• DDD, Onion Architecture<br/>• MediatR patterns, CQRS<br/>• Repository/Unit of Work<br/>• Clean Architecture"]
+    P4Topics --> P4Project["📦 DomainShop<br/>E-commerce with DDD & CQRS"]
     P4Project --> Phase5
     
     %% Phase 5: Concurrency
-    Phase5[🔄 Phase 5: Concurrency & Performance<br/>2-3 weeks] --> P5Topics
-    P5Topics[🔹 Async Programming<br/>• async/await, ValueTask<br/>• System.IO.Pipelines<br/>• Channels<br/>• Benchmarking]
-    P5Topics --> P5Project[📦 PipeCrawler<br/>High-performance web scraper]
+    Phase5["🔄 Phase 5: Concurrency & Performance<br/>2-3 weeks"] --> P5Topics
+    P5Topics["🔹 Async Programming<br/>• async/await, ValueTask<br/>• System.IO.Pipelines<br/>• Channels<br/>• Benchmarking"]
+    P5Topics --> P5Project["📦 PipeCrawler<br/>High-performance web scraper"]
     P5Project --> Phase6
     
     %% Phase 6: Diagnostics
-    Phase6[📊 Phase 6: Diagnostics & Tooling<br/>2-3 weeks] --> P6Topics
-    P6Topics[🔹 Developer Tools<br/>• BenchmarkDotNet<br/>• Logging frameworks<br/>• dotTrace, PerfView<br/>• Roslyn analyzers]
-    P6Topics --> P6Project[📦 AnalyzerPack<br/>Custom Roslyn analyzers]
+    Phase6["📊 Phase 6: Diagnostics & Tooling<br/>2-3 weeks"] --> P6Topics
+    P6Topics["🔹 Developer Tools<br/>• BenchmarkDotNet<br/>• Logging frameworks<br/>• dotTrace, PerfView<br/>• Roslyn analyzers"]
+    P6Topics --> P6Project["📦 AnalyzerPack<br/>Custom Roslyn analyzers"]
     P6Project --> Phase7
     
     %% Phase 7: DevOps (Optional)
-    Phase7[🌐 Phase 7: DevOps & Distributed<br/>Optional/Advanced] --> P7Topics
-    P7Topics[🔹 Production Systems<br/>• Dockerizing .NET apps<br/>• Azure/AWS deployment<br/>• Orleans or Akka.NET<br/>• OpenTelemetry tracing]
-    P7Topics --> P7Project[📦 OrleansMonitor<br/>Distributed job runner]
+    Phase7["🌐 Phase 7: DevOps & Distributed<br/>Optional/Advanced"] --> P7Topics
+    P7Topics["🔹 Production Systems<br/>• Dockerizing .NET apps<br/>• Azure/AWS deployment<br/>• Orleans or Akka.NET<br/>• OpenTelemetry tracing"]
+    P7Topics --> P7Project["📦 OrleansMonitor<br/>Distributed job runner"]
     
     %% Parallel Advanced Topics
-    Phase1 -.-> AdvancedTopics[🎯 Advanced Topics<br/>Parallel Learning]
+    Phase1 -.-> AdvancedTopics["🎯 Advanced Topics<br/>Parallel Learning"]
     Phase2 -.-> AdvancedTopics
     Phase3 -.-> AdvancedTopics
     
-    AdvancedTopics --> AT1[🧠 Memory & Performance<br/>• ArrayPool, MemoryPool<br/>• Allocation-free patterns<br/>• Struct optimizations]
-    AdvancedTopics --> AT2[🔗 Data & LINQ<br/>• IQueryable vs IEnumerable<br/>• Custom LINQ providers<br/>• Expression manipulation]
-    AdvancedTopics --> AT3[🛠️ Systems Programming<br/>• P/Invoke, native interop<br/>• Networking, sockets<br/>• Reflection.Emit]
+    AdvancedTopics --> AT1["🧠 Memory & Performance<br/>• ArrayPool, MemoryPool<br/>• Allocation-free patterns<br/>• Struct optimizations"]
+    AdvancedTopics --> AT2["🔗 Data & LINQ<br/>• IQueryable vs IEnumerable<br/>• Custom LINQ providers<br/>• Expression manipulation"]
+    AdvancedTopics --> AT3["🛠️ Systems Programming<br/>• P/Invoke, native interop<br/>• Networking, sockets<br/>• Reflection.Emit"]
     
     %% Capstone Project
     P7Project --> Capstone
@@ -66,30 +66,30 @@ flowchart TD
     AT2 --> Capstone
     AT3 --> Capstone
     
-    Capstone[🧩 Capstone Project<br/>1-2 months<br/>Enterprise SaaS Application]
+    Capstone["🧩 Capstone Project<br/>1-2 months<br/>Enterprise SaaS Application"]
     Capstone --> CapstoneFeatures
-    CapstoneFeatures[📋 Capstone Features<br/>• ASP.NET Core backend<br/>• Admin dashboard (Blazor)<br/>• SignalR notifications<br/>• Microservice architecture<br/>• Containerized deployment]
+    CapstoneFeatures["📋 Capstone Features<br/>• ASP.NET Core backend<br/>• Admin dashboard Blazor<br/>• SignalR notifications<br/>• Microservice architecture<br/>• Containerized deployment"]
     
     %% Expert Level
-    CapstoneFeatures --> ExpertLevel[🌟 Expert Level<br/>Continuous Learning]
-    ExpertLevel --> Expert1[📚 Contribute to OSS<br/>dotnet/runtime, roslyn]
-    ExpertLevel --> Expert2[📖 Study CLR via C#<br/>Jeffrey Richter]
-    ExpertLevel --> Expert3[👥 Mentor & Review<br/>Code reviews, teaching]
-    ExpertLevel --> Expert4[🔬 Build Libraries<br/>Real-world OSS libraries]
+    CapstoneFeatures --> ExpertLevel["🌟 Expert Level<br/>Continuous Learning"]
+    ExpertLevel --> Expert1["📚 Contribute to OSS<br/>dotnet/runtime, roslyn"]
+    ExpertLevel --> Expert2["📖 Study CLR via C#<br/>Jeffrey Richter"]
+    ExpertLevel --> Expert3["👥 Mentor & Review<br/>Code reviews, teaching"]
+    ExpertLevel --> Expert4["🔬 Build Libraries<br/>Real-world OSS libraries"]
     
     %% Continuous Learning Loop
-    Expert1 --> ContinuousLearning[🔄 Continuous Improvement]
+    Expert1 --> ContinuousLearning["🔄 Continuous Improvement"]
     Expert2 --> ContinuousLearning
     Expert3 --> ContinuousLearning
     Expert4 --> ContinuousLearning
     ContinuousLearning -.-> Phase1
     
     %% Study Methodology
-    Start --> StudyMethod[📋 Study Methodology]
-    StudyMethod --> Daily[📅 Daily: 1-2 hrs focused study]
-    StudyMethod --> Weekly[📆 Weekly: Deep-dive blog posts]
-    StudyMethod --> Monthly[📊 Monthly: Build projects]
-    StudyMethod --> LongTerm[🎯 Long-term: OSS contributions]
+    Start --> StudyMethod["📋 Study Methodology"]
+    StudyMethod --> Daily["📅 Daily: 1-2 hrs focused study"]
+    StudyMethod --> Weekly["📆 Weekly: Deep-dive blog posts"]
+    StudyMethod --> Monthly["📊 Monthly: Build projects"]
+    StudyMethod --> LongTerm["🎯 Long-term: OSS contributions"]
     
     %% Styling
     classDef phaseBox fill:#e1f5fe,stroke:#01579b,stroke-width:2px,color:#000
